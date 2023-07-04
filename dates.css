@@ -21,7 +21,7 @@ marquee{
 h1{
     margin-top: 10vh;
     color: rgb(22, 80, 205);
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 40px;
@@ -81,6 +81,10 @@ html, body{
         font-size: 20px;
         padding: 1%;
     }
+
+    th{
+        font-size: 1.2rem;
+    }
     
     table{
         width: 90%;
@@ -91,7 +95,7 @@ html, body{
     }
 
     h1{
-        font-size: 25px;
+        font-size: 35px;
         margin-top: 250px;
     }
 }
@@ -106,7 +110,7 @@ html, body{
       }
 
       h1{
-        font-size: 25px;
+        font-size: 35px;
         margin-top: 80px;
     }
 
