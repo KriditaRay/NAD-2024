@@ -13,6 +13,14 @@
     color: aqua;
 }
 
+b{
+
+}
+
+nav{
+    width: 100%;
+}
+
 .bt{
     background-color: white;
     color: black;
@@ -114,10 +122,24 @@ html, body{
     margin-bottom: 200px;
 }
 
+.vis{
+    display:none;
+}
 
+
+@media only screen and (max-width: 990px){
+    .vis{
+        display: block;
+    }
+}
 
 
 @media only screen and (max-width: 1200px){
+    .carousel-container {
+        max-width: 100%;
+      }
+
+
     .haha{
         font-size: 50px;
         bottom: 800px;
@@ -159,6 +181,10 @@ html, body{
 
 
 @media only screen and (max-width: 600px) {
+    .carousel-container {
+        max-width: 100%;
+      }
+    
     .img{
         height: 40vh;
     }

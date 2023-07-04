@@ -6,6 +6,17 @@ h1{
     text-align: center;
 }
 
+.vis{
+    display:none;
+}
+
+
+@media only screen and (max-width: 990px){
+    .vis{
+        display: block;
+    }
+}
+
 marquee{
     font-size: 30px;
     padding: 1%;
