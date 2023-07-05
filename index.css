@@ -1,16 +1,15 @@
 .img {
     width:100%;
     height: 80vh;
-    opacity: 70%;
 }
 
-.up{
+/* .up{
     position: relative;
     bottom: 10vh;
-    z-index: 0;
+    z-index: 1;
     margin-bottom: 0%;
     padding-bottom: 0%;
-}
+} */
 
 .heading{
     position:relative;
@@ -26,7 +25,7 @@
 }
 
 nav{
-    z-index: 1;
+    z-index: 2;
 }
 
 .im{
@@ -34,17 +33,14 @@ nav{
     justify-content: center;
 }
 
-.opp{
+/* .opp{
     filter: brightness(50%);
-}
+} */
 
 .hov:hover{
     color: aqua;
 }
 
-b{
-
-}
 
 nav{
     width: 100%;
@@ -88,12 +84,12 @@ nav{
 .set{
     margin-top: 300px;
     position: relative;
-    bottom: 300px;
+    bottom: 200px;
 }
 
 h1{
     background-color: rgb(57, 125, 251);
-    font-size: 70px;
+    font-size: 30px;
     font-weight: 700;
     margin-bottom: 2%;
     color: white;
@@ -101,17 +97,16 @@ h1{
 
 .p1{
     color:rgb(64, 105, 141);
-    font-size: 30px;
+    font-size: 26px;
     margin-bottom: 2%;
 }
 
 marquee{
-    font-size: 30px;
-    padding: 1%;
+    font-size: 20px;
+    padding: 0.50%;
     color: white;
     font-weight: 500;
 }
-
 
 .imgcon{
     width: 90%;
@@ -127,15 +122,15 @@ marquee{
 }
 
 .img2{
-    width: 100%;
-    height: 350px;
-    padding: 10%;
+    width: 50%;
+    height: 150px;
+    padding: 2%;
 }
 
 .img3{
-    width: 70%;
-    height: 350px;
-    padding: 10%;
+    width: 35%;
+    height: 160px;
+    padding: 2%;
 }
 
 html, body{
@@ -199,7 +194,7 @@ html, body{
     }
 
     .p1{
-        font-size: 30px;
+        font-size: 20px;
         margin-bottom: 2%;
     }
 
@@ -257,6 +252,7 @@ html, body{
     .p1{
         font-size: 15px;
         margin-bottom: 8%;
+        margin-top: 50px;
     }
 
     .set{

@@ -1,6 +1,6 @@
 marquee{
-    font-size: 30px;
-    padding: 1%;
+    font-size: 20px;
+    padding: 0.50%;
     color: white;
     font-weight: 500;
 }
@@ -17,16 +17,16 @@ marquee{
 }
 
 h1{
-    margin-top: 10vh;
+    margin-top: 5vh;
     color: rgb(22, 80, 205);
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 40px;
 }
 
 p, li{
-    font-size: 30px;
+    font-size: 22px;
 }
 
 main{
