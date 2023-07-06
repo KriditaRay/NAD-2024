@@ -3,8 +3,35 @@ marquee{
     padding: 0.50%;
     color: white;
     font-weight: 500;
-    position: fixed;
-    bottom: 0%;
+}
+
+.fa{
+    text-decoration: none; 
+    color:rgb(64, 105, 141);
+    font-size: large;
+}
+
+.fcont{
+    padding: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 9%;
+    display: grid;
+    grid-template-columns: 25% 50% 25%; 
+    gap: 4%;
+    background-color: rgb(205, 226, 255);
+}
+
+.fdiv{
+    background-color: white;
+    border-radius: 5%;
+}
+
+
+.fheader{
+    color: white;
+    padding: 8px;
+    border-radius: 5%;
 }
 
 h1{
@@ -19,12 +46,6 @@ h1{
     display:none;
 }
 
-
-@media only screen and (max-width: 990px){
-    .vis{
-        display: block;
-    }
-}
 
 .tr{
     border-bottom: 2px solid black;
@@ -42,14 +63,6 @@ th{
     font-size: 1.5rem;
 }
 
-h4{
-    width: 60%;
-    margin: auto;
-    border: 2px solid black;
-    border-bottom: none;
-    font-size: 20px;
-    padding: 1%;
-}
 
 table{
     width: 60%;
@@ -78,20 +91,16 @@ html, body{
 
 
 @media only screen and (max-width: 1200px){
+    .fcont{
+        display: grid;
+        grid-template-columns: 25% 40% 30%;
+        padding-right: 5%;
+    }
 
     td{
         padding: 1%;
     }
 
-    h4{
-        width: 90%;
-        margin: auto;
-        border: 2px solid black;
-        border-bottom: none;
-        font-size: 15px;
-        padding: 1%;
-    }
-    
     table{
         width: 90%;
         margin: auto;
@@ -108,6 +117,21 @@ html, body{
         font-size: 1.2rem;
     }
     
+}
+
+@media only screen and (max-width: 990px){
+    .vis{
+        display: block;
+    }
+
+    .fcont{
+        display: block;
+        padding: 2%;
+    }
+
+    .fdiv{
+        border-radius: 0%;
+    }
 }
 
 

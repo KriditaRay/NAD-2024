@@ -3,6 +3,64 @@
     height: 80vh;
 }
 
+.fa{
+    text-decoration: none; 
+    color:rgb(64, 105, 141);
+    font-size: large;
+}
+
+.fcont{
+    padding: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 9%;
+    display: grid;
+    grid-template-columns: 25% 50% 25%; 
+    gap: 4%;
+    background-color: rgb(205, 226, 255);
+}
+
+.fdiv{
+    background-color: white;
+    border-radius: 5%;
+}
+
+
+.fheader{
+    color: white;
+    padding: 8px;
+    border-radius: 5%;
+}
+
+.fa{
+    text-decoration: none; 
+    color:rgb(64, 105, 141);
+    font-size: large;
+}
+
+.fcont{
+    padding: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 9%;
+    display: grid;
+    grid-template-columns: 25% 50% 25%; 
+    gap: 4%;
+    background-color: rgb(205, 226, 255);
+}
+
+.fdiv{
+    background-color: white;
+    border-radius: 5%;
+}
+
+
+.fheader{
+    color: white;
+    padding: 8px;
+    border-radius: 5%;
+}
+
 /* .up{
     position: relative;
     bottom: 10vh;
@@ -98,7 +156,7 @@ h1{
 .p1{
     color:rgb(64, 105, 141);
     font-size: 26px;
-    margin-bottom: 2%;
+    /* margin-bottom: 2%; */
 }
 
 marquee{
@@ -162,9 +220,14 @@ html, body{
 
 
 @media only screen and (max-width: 1200px){
+    .fcont{
+        display: grid;
+        grid-template-columns: 25% 40% 30%;
+        padding-right: 5%;
+    }
 
     .heading{
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .carousel-container {
@@ -205,13 +268,22 @@ html, body{
     }
 
     h1{
-        font-size: 60px;
+        font-size: 30px;
         font-weight: 700;
         margin-bottom: 2%;
       }
 }
 
 @media only screen and (max-width: 990px){
+    .fcont{
+        display: block;
+        padding: 2%;
+    }
+
+    .fdiv{
+        border-radius: 0%;
+    }
+
     .vis{
         display: block;
     }
