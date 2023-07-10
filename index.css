@@ -3,6 +3,11 @@
     height: 80vh;
 }
 
+nav li:hover{
+    background-color: rgb(27, 91, 252);
+    border-radius: 10%;
+}
+
 .fa{
     text-decoration: none; 
     color:rgb(64, 105, 141);
@@ -69,7 +74,7 @@
     padding-bottom: 0%;
 } */
 
-.heading{
+/* .heading{
     position:relative;
     bottom: 50%;
     left: 50%;
@@ -80,7 +85,7 @@
     padding: 65px;
     font-weight: 600;
     height: 100px;
-}
+} */
 
 nav{
     z-index: 2;
@@ -143,6 +148,8 @@ nav{
     margin-top: 300px;
     position: relative;
     bottom: 200px;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 h1{
@@ -208,27 +215,35 @@ html, body{
     display:none;
 }
 
+nav li{
+    font-size: 20px;
+}
 
-@media only screen and (max-width: 1600px){
+
+/* @media only screen and (max-width: 1600px){
     .heading{
         position:relative;
         bottom: 30%;
         left: 50%;
         font-size: 40px;
     }
-}
+} */
 
 
 @media only screen and (max-width: 1200px){
+    .fa{
+        font-size: 12px;
+    }
+
     .fcont{
         display: grid;
         grid-template-columns: 25% 40% 30%;
         padding-right: 5%;
     }
 
-    .heading{
+    /* .heading{
         font-size: 20px;
-    }
+    } */
 
     .carousel-container {
         max-width: 100%;
@@ -258,13 +273,12 @@ html, body{
 
     .p1{
         font-size: 20px;
-        margin-bottom: 2%;
     }
 
     .set{
         width: 100vw;
         position: relative;
-        margin-top: 300px;
+        margin-top: 250px;
     }
 
     h1{
@@ -275,29 +289,58 @@ html, body{
 }
 
 @media only screen and (max-width: 990px){
+    .fheader{
+        font-size: 15px;
+    }
+
     .fcont{
         display: block;
         padding: 2%;
     }
 
     .fdiv{
-        border-radius: 0%;
+        border-radius: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 2%;
     }
 
     .vis{
         display: block;
+        font-size: 14px;
     }
 
-    .heading{
+    .set{
+        position: relative;
+        bottom: 0px;
+        margin-top: 5%;
+        /* margin-bottom: 100px; */
+    }
+
+    .p1{
+        font-size: 12px;
+    }
+
+    /* .heading{
         position:relative;
         bottom: 25%;
         left: 50%;
         font-size: 25px;
-    }
+    } */
 }
 
 
 @media only screen and (max-width: 600px) {
+    nav li{
+        font-size: 12px;
+    }
+
+    .fheader{
+        font-size: 12px;
+    }
+    
+    
+
     .carousel-container {
         max-width: 100%;
       }
@@ -306,12 +349,17 @@ html, body{
         height: 40vh;
     }
 
+    .p1{
+        font-size: 10px;
+    }
+
+/* 
     .heading{
         position:relative;
         bottom: 20%;
         left: 50%;
         font-size: 10px;
-    }
+    } */
 
 
     .im{
@@ -319,19 +367,6 @@ html, body{
         justify-content: center;
         height: 200px;
         width: 200px;
-    }
-
-    .p1{
-        font-size: 15px;
-        margin-bottom: 8%;
-        margin-top: 50px;
-    }
-
-    .set{
-        position: relative;
-        bottom: 0px;
-        margin-top: 0px;
-        margin-bottom: 100px;
     }
 
     h1{
@@ -365,7 +400,7 @@ html, body{
     }
 
     marquee{
-        font-size: 15px;
+        font-size: 10px;
         color: white;
         font-weight: 400;
       }

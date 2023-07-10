@@ -27,6 +27,15 @@ h1{
     background-color: rgb(205, 226, 255);
 }
 
+nav li{
+    font-size: 20px;
+}
+
+nav li:hover{
+    background-color: rgb(27, 91, 252);
+    border-radius: 10%;
+}
+
 .fdiv{
     background-color: white;
     border-radius: 5%;
@@ -97,6 +106,10 @@ html, body{
 
 
 @media only screen and (max-width: 1200px){
+    .fa{
+        font-size: 12px;
+    }
+    
     .fcont{
         display: grid;
         grid-template-columns: 25% 40% 30%;
@@ -130,8 +143,25 @@ html, body{
 }
 
 @media only screen and (max-width: 990px){
+    .fheader{
+        font-size: 15px;
+    }
+
+    h1{
+        font-size: 16px;
+    }
+
+    .h4{
+        font-size: 14px;
+    }
+
+    .td, td{
+        font-size: 12px;
+    }
+    
     .vis{
         display: block;
+        font-size: 14px;
     }
 
     .fcont{
@@ -140,15 +170,38 @@ html, body{
     }
 
     .fdiv{
-        border-radius: 0%;
+        border-radius: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 2%;
     }
 }
 
 
 @media only screen and (max-width: 600px) {
+    .fheader{
+        font-size: 12px;
+    }
+    
+    nav li{
+        font-size: 12px;
+    }
+
+    h1{
+        font-size: 13px;
+    }
+
+    .h4{
+        font-size: 11px;
+    }
+
+    .td, td{
+        font-size: 10px;
+    }
+    
 
     marquee{
-        font-size: 15px;
+        font-size: 10px;
         color: white;
         font-weight: 400;
       }

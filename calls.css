@@ -5,6 +5,15 @@ marquee{
     font-weight: 500;
 }
 
+nav li{
+    font-size: 20px;
+}
+
+nav li:hover{
+    background-color: rgb(27, 91, 252);
+    border-radius: 10%;
+}
+
 .fa{
     text-decoration: none; 
     color:rgb(64, 105, 141);
@@ -43,7 +52,7 @@ h1{
 }
 
 .li1{
-    font-size: 25px;
+    font-size: 20px;
     background-color: rgb(106, 193, 255);
     padding: 10px;
     border-radius: 5px;
@@ -54,7 +63,7 @@ h1{
 main{
     width: 90%;
     margin: auto;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 
 *{
@@ -86,8 +95,17 @@ html, body{
 }
 
 
+.subhead{
+    font-size: 20px;
+}
+
+
 
 @media only screen and (max-width: 1200px){
+    .fa{
+        font-size: 12px;
+    }
+    
     .fcont{
         display: grid;
         grid-template-columns: 25% 40% 30%;
@@ -95,7 +113,11 @@ html, body{
     }
 
     h1{
-        font-size: 25px;
+        font-size: 22px;
+    }
+
+    .subhead{
+        font-size: 15px;
     }
 
     main{
@@ -108,7 +130,7 @@ html, body{
     }
 
     .li1{
-        font-size: 20px;
+        font-size: 17px;
     }
 
     html, body{
@@ -124,8 +146,17 @@ html, body{
 
 
 @media only screen and (max-width: 990px){
+    .fheader{
+        font-size: 15px;
+    }
+    
     .vis{
         display: block;
+        font-size: 14px;
+    }
+
+    main{
+        margin-bottom: 25px;
     }
 
     .fcont{
@@ -133,22 +164,44 @@ html, body{
         padding: 2%;
     }
 
+    .li1{
+        font-size: 15px;
+    }
+
     .fdiv{
-        border-radius: 0%;
+        border-radius: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 2%;
     }
 }
 
 
 @media only screen and (max-width: 600px) {
+    h1{
+        font-size: 12px;
+    }
 
+    .subhead{
+        font-size: 10px;
+    }
+
+    .fheader{
+        font-size: 12px;
+    }
+    
+    nav li{
+        font-size: 12px;
+    }
+    
     marquee{
-        font-size: 15px;
+        font-size: 10px;
         color: white;
         font-weight: 400;
       }
 
       .li1{
-        font-size: 15px;
+        font-size: 10px;
       }
 
       .cont{

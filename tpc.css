@@ -5,6 +5,15 @@ marquee{
     font-weight: 500;
 }
 
+nav li{
+    font-size: 20px;
+}
+
+nav li:hover{
+    background-color: rgb(27, 91, 252);
+    border-radius: 10%;
+}
+
 .fa{
     text-decoration: none; 
     color:rgb(64, 105, 141);
@@ -91,6 +100,10 @@ html, body{
 
 
 @media only screen and (max-width: 1200px){
+    .fa{
+        font-size: 12px;
+    }
+
     .fcont{
         display: grid;
         grid-template-columns: 25% 40% 30%;
@@ -101,27 +114,32 @@ html, body{
         padding: 1%;
     }
 
+    th{
+        font-size: 13px;
+    }
+    
     table{
         width: 90%;
         margin: auto;
         border: 2px solid black;
-        font-size: 15px;
+        font-size: 12px;
         margin-bottom: 50px;
     }
 
     h1{
-        font-size: 20px;
-    }
-
-    th{
-        font-size: 1.2rem;
+        font-size: 18px;
     }
     
 }
 
 @media only screen and (max-width: 990px){
+    .fheader{
+        font-size: 15px;
+    }
+
     .vis{
         display: block;
+        font-size: 14px;
     }
 
     .fcont{
@@ -130,22 +148,40 @@ html, body{
     }
 
     .fdiv{
-        border-radius: 0%;
+        border-radius: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 2%;
     }
 }
 
 
 @media only screen and (max-width: 600px) {
+    .fheader{
+        font-size: 12px;
+    }
+
+    nav li{
+        font-size: 12px;
+    }
+
+    th{
+        font-size: 10px;
+    }
+    
+    table{
+        font-size: 10px;
+    }
+
+    h1{
+        font-size: 12px;
+    }
+    
 
     marquee{
-        font-size: 15px;
+        font-size: 10px;
         color: white;
         font-weight: 400;
       }
-
-      th{
-        font-size: 1rem;
-    }
-    
 
   }
