@@ -1,4 +1,4 @@
-marquee{
+/* marquee{
     font-size: 20px;
     padding: 0.50%;
     color: white;
@@ -12,12 +12,12 @@ nav li{
 nav li:hover{
     background-color: rgb(27, 91, 252);
     border-radius: 10%;
-}
+} */
 
 .fa{
     text-decoration: none; 
     color:rgb(64, 105, 141);
-    font-size: large;
+    /* font-size: large; */
 }
 
 .fcont{
@@ -52,14 +52,14 @@ nav li:hover{
 h1{
     margin-top: 5vh;
     color: rgb(22, 80, 205);
-    font-size: 22px;
+    /* font-size: 22px; */
     font-weight: 700;
     text-align: center;
     margin-bottom: 40px;
 }
 
 p, .li1{
-    font-size: 18px;
+    /* font-size: 18px; */
     padding-top: 8px;
 }
 
@@ -74,14 +74,16 @@ html, body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
   }
 
 
 
 @media only screen and (max-width: 1200px){
-    .fa{
+    /* .fa{
         font-size: 12px;
-    }
+    } */
     
     .fcont{
         display: grid;
@@ -90,13 +92,13 @@ html, body{
     }
 
     p, .li1{
-        font-size: 16px;
+        /* font-size: 16px; */
         padding-top: 8px;
     }
 
-    h1{
+    /* h1{
         font-size: 18px;
-    }
+    } */
 
     /* p, .li1{
         font-size: 16px;
@@ -110,11 +112,11 @@ html, body{
         margin: 0%;
     }
 
-    marquee{
+    /* marquee{
         font-size: 14px;
         color: white;
         font-weight: 400;
-      }
+      } */
 
       html, body{
         width: 100%;
@@ -127,13 +129,13 @@ html, body{
 }
 
 @media only screen and (max-width: 990px){
-    .fheader{
+    /* .fheader{
         font-size: 15px;
-    }
+    } */
     
     .vis{
         display: block;
-        font-size: 14px;
+        /* font-size: 14px; */
     }
 
     .fcont{
@@ -151,11 +153,11 @@ html, body{
 
 
 @media only screen and (max-width: 600px) {
-    .fheader{
+    /* .fheader{
         font-size: 12px;
     }
-    
-    nav li{
+     */
+    /* nav li{
         font-size: 12px;
     }
     
@@ -163,7 +165,7 @@ html, body{
         font-size: 10px;
         color: white;
         font-weight: 400;
-      }
+      } */
 
       main{
         width: 100%;
@@ -173,12 +175,12 @@ html, body{
         margin: 0%;
     }
 
-    h1{
+    /* h1{
         font-size: 12px;
-    }
+    } */
 
     p, .li1{
-        font-size: 10px;
+        /* font-size: 10px; */
         padding-top: 4px;
     }
 
@@ -188,6 +190,8 @@ html, body{
         margin: 0;
         padding: 0;
         overflow-x: hidden;
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
       }
 
   }

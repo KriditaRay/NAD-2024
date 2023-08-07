@@ -1,4 +1,4 @@
-marquee{
+/* marquee{
     font-size: 20px;
     padding: 0.50%;
     color: white;
@@ -12,12 +12,12 @@ nav li{
 nav li:hover{
     background-color: rgb(27, 91, 252);
     border-radius: 10%;
-}
+} */
 
 .fa{
     text-decoration: none; 
     color:rgb(64, 105, 141);
-    font-size: large;
+    /* font-size: large; */
 }
 
 .fcont{
@@ -46,7 +46,7 @@ nav li:hover{
 h1{
     margin-top: 5vh;
     color: rgb(22, 80, 205);
-    font-size: 30px;
+    /* font-size: 30px; */
     font-weight: 700;
     text-align: center;
 }
@@ -63,9 +63,9 @@ td, th{
     padding: 2%;
 }
 
-th{
+/* th{
     font-size: 1.5rem;
-}
+} */
 
 .t{
     text-align: center;
@@ -76,7 +76,7 @@ table{
     width: 60%;
     margin: auto;
     border: 2px solid black;
-    font-size: 20px;
+    /* font-size: 20px; */
     margin-bottom: 50px;
 }
 
@@ -87,6 +87,8 @@ main{
 body{
     padding: 0%;
     margin: 0%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
 }
 
 
@@ -96,9 +98,9 @@ body{
 
 
 @media only screen and (max-width: 1200px){
-    .fa{
+    /* .fa{
         font-size: 12px;
-    }
+    } */
     
     .fcont{
         display: grid;
@@ -110,32 +112,32 @@ body{
         padding: 1%;
     }
 
-    th{
+    /* th{
         font-size: 15px;
-    }
+    } */
     
     table{
         width: 90%;
         margin: auto;
         border: 2px solid black;
-        font-size: 12px;
+        /* font-size: 12px; */
         margin-bottom: 100px;
     }
-
+/* 
     h1{
         font-size: 25px;
-    }
+    } */
 }
 
 
 @media only screen and (max-width: 990px){
-    .fheader{
+    /* .fheader{
         font-size: 15px;
-    }
+    } */
     
     .vis{
         display: block;
-        font-size: 14px;
+        /* font-size: 14px; */
     }
 
     .fcont{
@@ -157,15 +159,15 @@ body{
 
 
 @media only screen and (max-width: 600px) {
-    .fheader{
+    /* .fheader{
         font-size: 12px;
-    }
+    } */
     
-    nav li{
+    /* nav li{
         font-size: 12px;
-    }
+    } */
 
-    th{
+    /* th{
         font-size: 10px;
     }
     
@@ -175,20 +177,20 @@ body{
 
     h1{
         font-size: 12px;
-    }
+    } */
     
-    marquee{
+    /* marquee{
         font-size: 10px;
         color: white;
         font-weight: 400;
-      }
+      } */
 
-      .h4{
+      /* .h4{
         font-size: 15px;
       }
 
       th{
         font-size: 10px;
-    }
+    } */
 
   }

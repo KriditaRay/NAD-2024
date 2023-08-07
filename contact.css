@@ -1,4 +1,4 @@
-marquee{
+/* marquee{
     font-size: 20px;
     padding: 0.50%;
     color: white;
@@ -12,12 +12,12 @@ nav li{
 nav li:hover{
     background-color: rgb(27, 91, 252);
     border-radius: 10%;
-}
+} */
 
 .fa{
     text-decoration: none; 
     color:rgb(64, 105, 141);
-    font-size: large;
+    /* font-size: large; */
 }
 
 .fcont{
@@ -55,7 +55,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    /* font-size: 50px; */
 }
 
 
@@ -65,14 +65,16 @@ html, body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
   }
 
 
 
 @media only screen and (max-width: 1200px){
-    .fa{
+    /* .fa{
         font-size: 12px;
-    }
+    } */
     
     .fcont{
         display: grid;
@@ -80,22 +82,22 @@ html, body{
         padding-right: 5%;
     }
     
-    p{
+    /* p{
         font-size: 30px;
-    }
+    } */
 
 
 }
 
 
 @media only screen and (max-width: 990px){
-    .fheader{
+    /* .fheader{
         font-size: 15px;
-    }
+    } */
     
     .vis{
         display: block;
-        font-size: 14px;
+        /* font-size: 14px; */
     }
 
     .fcont{
@@ -114,22 +116,22 @@ html, body{
 
 
 @media only screen and (max-width: 600px) {
-    .fheader{
+    /* .fheader{
         font-size: 12px;
-    }
+    } */
     
-    nav li{
+    /* nav li{
         font-size: 12px;
-    }
+    } */
 
-    p{
+    /* p{
         font-size: 20px;
-    }
+    } */
     
-    marquee{
+    /* marquee{
         font-size: 10px;
         color: white;
         font-weight: 400;
-      }
+      } */
 
 }

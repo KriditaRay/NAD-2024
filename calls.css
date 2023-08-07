@@ -1,4 +1,4 @@
-marquee{
+/* marquee{
     font-size: 20px;
     padding: 0.50%;
     color: white;
@@ -12,12 +12,12 @@ nav li{
 nav li:hover{
     background-color: rgb(27, 91, 252);
     border-radius: 10%;
-}
+} */
 
 .fa{
     text-decoration: none; 
     color:rgb(64, 105, 141);
-    font-size: large;
+    /* font-size: large; */
 }
 
 .fcont{
@@ -46,13 +46,13 @@ nav li:hover{
 h1{
     margin-top: 5vh;
     color: rgb(22, 80, 205);
-    font-size: 30px;
+    /* font-size: 30px; */
     font-weight: 700;
     text-align: center;
 }
 
 .li1{
-    font-size: 20px;
+    /* font-size: 20px; */
     background-color: rgb(106, 193, 255);
     padding: 10px;
     border-radius: 5px;
@@ -87,6 +87,8 @@ html, body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
   }
 
 
@@ -95,16 +97,16 @@ html, body{
 }
 
 
-.subhead{
+/* .subhead{
     font-size: 20px;
-}
+} */
 
 
 
 @media only screen and (max-width: 1200px){
-    .fa{
+    /* .fa{
         font-size: 12px;
-    }
+    } */
     
     .fcont{
         display: grid;
@@ -112,13 +114,13 @@ html, body{
         padding-right: 5%;
     }
 
-    h1{
+    /* h1{
         font-size: 22px;
     }
 
     .subhead{
         font-size: 15px;
-    }
+    } */
 
     main{
         width: 80%;
@@ -129,9 +131,9 @@ html, body{
         padding: 50px;
     }
 
-    .li1{
+    /* .li1{
         font-size: 17px;
-    }
+    } */
 
     html, body{
         width: 100%;
@@ -146,13 +148,13 @@ html, body{
 
 
 @media only screen and (max-width: 990px){
-    .fheader{
+    /* .fheader{
         font-size: 15px;
-    }
+    } */
     
     .vis{
         display: block;
-        font-size: 14px;
+        /* font-size: 14px; */
     }
 
     main{
@@ -164,9 +166,9 @@ html, body{
         padding: 2%;
     }
 
-    .li1{
+    /* .li1{
         font-size: 15px;
-    }
+    } */
 
     .fdiv{
         border-radius: 5%;
@@ -178,19 +180,19 @@ html, body{
 
 
 @media only screen and (max-width: 600px) {
-    h1{
+    /* h1{
         font-size: 12px;
-    }
+    } */
 
-    .subhead{
+    /* .subhead{
         font-size: 10px;
-    }
+    } */
 
-    .fheader{
+    /* .fheader{
         font-size: 12px;
-    }
+    } */
     
-    nav li{
+    /* nav li{
         font-size: 12px;
     }
     
@@ -198,11 +200,11 @@ html, body{
         font-size: 10px;
         color: white;
         font-weight: 400;
-      }
+      } */
 
-      .li1{
+      /* .li1{
         font-size: 10px;
-      }
+      } */
 
       .cont{
         padding: 20px;
